@@ -18,11 +18,19 @@
 		7577BD272090D5F000DB08DC /* HomeViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */; };
 		7577BD292090D8E500DB08DC /* Quick+KIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD282090D8E500DB08DC /* Quick+KIF.swift */; };
 		7577BD2B2090DB9400DB08DC /* KIFUITestActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */; };
+		7577BD332090E04400DB08DC /* KifTrainingPipleLinesUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD322090E04400DB08DC /* KifTrainingPipleLinesUnitTests.swift */; };
 		E2024BC7729A362F1F51D548 /* Pods_KifTrainingPipleLinesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7577BD162090D2C200DB08DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7577BCF92090D2C100DB08DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7577BD002090D2C100DB08DC;
+			remoteInfo = KifTrainingPipleLines;
+		};
+		7577BD352090E04400DB08DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7577BCF92090D2C100DB08DC /* Project object */;
 			proxyType = 1;
@@ -47,6 +55,9 @@
 		7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpec.swift; sourceTree = "<group>"; };
 		7577BD282090D8E500DB08DC /* Quick+KIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick+KIF.swift"; sourceTree = "<group>"; };
 		7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIFUITestActor.swift; sourceTree = "<group>"; };
+		7577BD302090E04300DB08DC /* KifTrainingPipleLinesUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KifTrainingPipleLinesUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7577BD322090E04400DB08DC /* KifTrainingPipleLinesUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KifTrainingPipleLinesUnitTests.swift; sourceTree = "<group>"; };
+		7577BD342090E04400DB08DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A3DC1F15AED0C4DC02836B9 /* Pods-KifTrainingPipleLines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLines/Pods-KifTrainingPipleLines.debug.xcconfig"; sourceTree = "<group>"; };
 		A418F74B74D0B0514E087A91 /* Pods-KifTrainingPipleLinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLinesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KifTrainingPipleLinesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7577BD2D2090E04300DB08DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +106,7 @@
 			children = (
 				7577BD032090D2C100DB08DC /* KifTrainingPipleLines */,
 				7577BD182090D2C200DB08DC /* KifTrainingPipleLinesTests */,
+				7577BD312090E04400DB08DC /* KifTrainingPipleLinesUnitTests */,
 				7577BD022090D2C100DB08DC /* Products */,
 				BBFA74F2D04521D2FD91FE10 /* Pods */,
 				6F89E4DEB7E085BEE0E3A3B9 /* Frameworks */,
@@ -99,6 +118,7 @@
 			children = (
 				7577BD012090D2C100DB08DC /* KifTrainingPipleLines.app */,
 				7577BD152090D2C200DB08DC /* KifTrainingPipleLinesTests.xctest */,
+				7577BD302090E04300DB08DC /* KifTrainingPipleLinesUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +147,15 @@
 				7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */,
 			);
 			path = KifTrainingPipleLinesTests;
+			sourceTree = "<group>";
+		};
+		7577BD312090E04400DB08DC /* KifTrainingPipleLinesUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7577BD322090E04400DB08DC /* KifTrainingPipleLinesUnitTests.swift */,
+				7577BD342090E04400DB08DC /* Info.plist */,
+			);
+			path = KifTrainingPipleLinesUnitTests;
 			sourceTree = "<group>";
 		};
 		BBFA74F2D04521D2FD91FE10 /* Pods */ = {
@@ -181,6 +210,24 @@
 			productReference = 7577BD152090D2C200DB08DC /* KifTrainingPipleLinesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7577BD2F2090E04300DB08DC /* KifTrainingPipleLinesUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7577BD372090E04400DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLinesUnitTests" */;
+			buildPhases = (
+				7577BD2C2090E04300DB08DC /* Sources */,
+				7577BD2D2090E04300DB08DC /* Frameworks */,
+				7577BD2E2090E04300DB08DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7577BD362090E04400DB08DC /* PBXTargetDependency */,
+			);
+			name = KifTrainingPipleLinesUnitTests;
+			productName = KifTrainingPipleLinesUnitTests;
+			productReference = 7577BD302090E04300DB08DC /* KifTrainingPipleLinesUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +243,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					7577BD142090D2C200DB08DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7577BD002090D2C100DB08DC;
+					};
+					7577BD2F2090E04300DB08DC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7577BD002090D2C100DB08DC;
@@ -217,6 +269,7 @@
 			targets = (
 				7577BD002090D2C100DB08DC /* KifTrainingPipleLines */,
 				7577BD142090D2C200DB08DC /* KifTrainingPipleLinesTests */,
+				7577BD2F2090E04300DB08DC /* KifTrainingPipleLinesUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +286,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7577BD132090D2C200DB08DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577BD2E2090E04300DB08DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,6 +384,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7577BD2C2090E04300DB08DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577BD332090E04400DB08DC /* KifTrainingPipleLinesUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -331,6 +399,11 @@
 			isa = PBXTargetDependency;
 			target = 7577BD002090D2C100DB08DC /* KifTrainingPipleLines */;
 			targetProxy = 7577BD162090D2C200DB08DC /* PBXContainerItemProxy */;
+		};
+		7577BD362090E04400DB08DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7577BD002090D2C100DB08DC /* KifTrainingPipleLines */;
+			targetProxy = 7577BD352090E04400DB08DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -549,6 +622,38 @@
 			};
 			name = Release;
 		};
+		7577BD382090E04400DB08DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLinesUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLinesUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KifTrainingPipleLines.app/KifTrainingPipleLines";
+			};
+			name = Debug;
+		};
+		7577BD392090E04400DB08DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLinesUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLinesUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KifTrainingPipleLines.app/KifTrainingPipleLines";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +680,15 @@
 			buildConfigurations = (
 				7577BD222090D2C200DB08DC /* Debug */,
 				7577BD232090D2C200DB08DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7577BD372090E04400DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLinesUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577BD382090E04400DB08DC /* Debug */,
+				7577BD392090E04400DB08DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,7 +27,8 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -36,6 +37,16 @@
                BlueprintIdentifier = "7577BD142090D2C200DB08DC"
                BuildableName = "KifTrainingPipleLinesTests.xctest"
                BlueprintName = "KifTrainingPipleLinesTests"
+               ReferencedContainer = "container:KifTrainingPipleLines.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7577BD2F2090E04300DB08DC"
+               BuildableName = "KifTrainingPipleLinesUnitTests.xctest"
+               BlueprintName = "KifTrainingPipleLinesUnitTests"
                ReferencedContainer = "container:KifTrainingPipleLines.xcodeproj">
             </BuildableReference>
          </TestableReference>
