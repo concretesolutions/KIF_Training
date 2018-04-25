@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41CC3076184A019EEA7C88E8 /* Pods_KifTrainingPipleLines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3952D08129C1D9AF5D8FF9E /* Pods_KifTrainingPipleLines.framework */; };
+		7577BD052090D2C100DB08DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD042090D2C100DB08DC /* AppDelegate.swift */; };
+		7577BD072090D2C100DB08DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD062090D2C100DB08DC /* HomeViewController.swift */; };
+		7577BD0A2090D2C100DB08DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7577BD082090D2C100DB08DC /* Main.storyboard */; };
+		7577BD0C2090D2C100DB08DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7577BD0B2090D2C100DB08DC /* Assets.xcassets */; };
+		7577BD0F2090D2C100DB08DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7577BD0D2090D2C100DB08DC /* LaunchScreen.storyboard */; };
+		7577BD1A2090D2C200DB08DC /* KifTrainingPipleLinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD192090D2C200DB08DC /* KifTrainingPipleLinesTests.swift */; };
+		7577BD252090D31E00DB08DC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD242090D31E00DB08DC /* ListViewController.swift */; };
+		7577BD272090D5F000DB08DC /* HomeViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */; };
+		7577BD292090D8E500DB08DC /* Quick+KIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD282090D8E500DB08DC /* Quick+KIF.swift */; };
+		E2024BC7729A362F1F51D548 /* Pods_KifTrainingPipleLinesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7577BD162090D2C200DB08DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7577BCF92090D2C100DB08DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7577BD002090D2C100DB08DC;
+			remoteInfo = KifTrainingPipleLines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DABD5E3FA10A7C4176D3EB4 /* Pods-KifTrainingPipleLinesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLinesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests.release.xcconfig"; sourceTree = "<group>"; };
+		7577BD012090D2C100DB08DC /* KifTrainingPipleLines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KifTrainingPipleLines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7577BD042090D2C100DB08DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7577BD062090D2C100DB08DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7577BD092090D2C100DB08DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7577BD0B2090D2C100DB08DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7577BD0E2090D2C100DB08DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7577BD102090D2C100DB08DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7577BD152090D2C200DB08DC /* KifTrainingPipleLinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KifTrainingPipleLinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7577BD192090D2C200DB08DC /* KifTrainingPipleLinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KifTrainingPipleLinesTests.swift; sourceTree = "<group>"; };
+		7577BD1B2090D2C200DB08DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7577BD242090D31E00DB08DC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpec.swift; sourceTree = "<group>"; };
+		7577BD282090D8E500DB08DC /* Quick+KIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick+KIF.swift"; sourceTree = "<group>"; };
+		7A3DC1F15AED0C4DC02836B9 /* Pods-KifTrainingPipleLines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLines/Pods-KifTrainingPipleLines.debug.xcconfig"; sourceTree = "<group>"; };
+		A418F74B74D0B0514E087A91 /* Pods-KifTrainingPipleLinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLinesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KifTrainingPipleLinesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3785683FFC22C2B42C95BC1 /* Pods-KifTrainingPipleLines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLines.release.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLines/Pods-KifTrainingPipleLines.release.xcconfig"; sourceTree = "<group>"; };
+		E3952D08129C1D9AF5D8FF9E /* Pods_KifTrainingPipleLines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KifTrainingPipleLines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7577BCFE2090D2C100DB08DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CC3076184A019EEA7C88E8 /* Pods_KifTrainingPipleLines.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577BD122090D2C200DB08DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2024BC7729A362F1F51D548 /* Pods_KifTrainingPipleLinesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F89E4DEB7E085BEE0E3A3B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3952D08129C1D9AF5D8FF9E /* Pods_KifTrainingPipleLines.framework */,
+				B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7577BCF82090D2C100DB08DC = {
+			isa = PBXGroup;
+			children = (
+				7577BD032090D2C100DB08DC /* KifTrainingPipleLines */,
+				7577BD182090D2C200DB08DC /* KifTrainingPipleLinesTests */,
+				7577BD022090D2C100DB08DC /* Products */,
+				BBFA74F2D04521D2FD91FE10 /* Pods */,
+				6F89E4DEB7E085BEE0E3A3B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7577BD022090D2C100DB08DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7577BD012090D2C100DB08DC /* KifTrainingPipleLines.app */,
+				7577BD152090D2C200DB08DC /* KifTrainingPipleLinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7577BD032090D2C100DB08DC /* KifTrainingPipleLines */ = {
+			isa = PBXGroup;
+			children = (
+				7577BD042090D2C100DB08DC /* AppDelegate.swift */,
+				7577BD062090D2C100DB08DC /* HomeViewController.swift */,
+				7577BD082090D2C100DB08DC /* Main.storyboard */,
+				7577BD0B2090D2C100DB08DC /* Assets.xcassets */,
+				7577BD0D2090D2C100DB08DC /* LaunchScreen.storyboard */,
+				7577BD102090D2C100DB08DC /* Info.plist */,
+				7577BD242090D31E00DB08DC /* ListViewController.swift */,
+			);
+			path = KifTrainingPipleLines;
+			sourceTree = "<group>";
+		};
+		7577BD182090D2C200DB08DC /* KifTrainingPipleLinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7577BD192090D2C200DB08DC /* KifTrainingPipleLinesTests.swift */,
+				7577BD1B2090D2C200DB08DC /* Info.plist */,
+				7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */,
+				7577BD282090D8E500DB08DC /* Quick+KIF.swift */,
+			);
+			path = KifTrainingPipleLinesTests;
+			sourceTree = "<group>";
+		};
+		BBFA74F2D04521D2FD91FE10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A3DC1F15AED0C4DC02836B9 /* Pods-KifTrainingPipleLines.debug.xcconfig */,
+				E3785683FFC22C2B42C95BC1 /* Pods-KifTrainingPipleLines.release.xcconfig */,
+				A418F74B74D0B0514E087A91 /* Pods-KifTrainingPipleLinesTests.debug.xcconfig */,
+				3DABD5E3FA10A7C4176D3EB4 /* Pods-KifTrainingPipleLinesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7577BD002090D2C100DB08DC /* KifTrainingPipleLines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7577BD1E2090D2C200DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLines" */;
+			buildPhases = (
+				FBF70E357387A70E3E97948B /* [CP] Check Pods Manifest.lock */,
+				7577BCFD2090D2C100DB08DC /* Sources */,
+				7577BCFE2090D2C100DB08DC /* Frameworks */,
+				7577BCFF2090D2C100DB08DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KifTrainingPipleLines;
+			productName = KifTrainingPipleLines;
+			productReference = 7577BD012090D2C100DB08DC /* KifTrainingPipleLines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7577BD142090D2C200DB08DC /* KifTrainingPipleLinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7577BD212090D2C200DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLinesTests" */;
+			buildPhases = (
+				39B521CFF9F354AA73CCC9E4 /* [CP] Check Pods Manifest.lock */,
+				7577BD112090D2C200DB08DC /* Sources */,
+				7577BD122090D2C200DB08DC /* Frameworks */,
+				7577BD132090D2C200DB08DC /* Resources */,
+				908DE89C1CCAC83D02CC3868 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7577BD172090D2C200DB08DC /* PBXTargetDependency */,
+			);
+			name = KifTrainingPipleLinesTests;
+			productName = KifTrainingPipleLinesTests;
+			productReference = 7577BD152090D2C200DB08DC /* KifTrainingPipleLinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7577BCF92090D2C100DB08DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Douglas Mendes Barreto";
+				TargetAttributes = {
+					7577BD002090D2C100DB08DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7577BD142090D2C200DB08DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7577BD002090D2C100DB08DC;
+					};
+				};
+			};
+			buildConfigurationList = 7577BCFC2090D2C100DB08DC /* Build configuration list for PBXProject "KifTrainingPipleLines" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7577BCF82090D2C100DB08DC;
+			productRefGroup = 7577BD022090D2C100DB08DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7577BD002090D2C100DB08DC /* KifTrainingPipleLines */,
+				7577BD142090D2C200DB08DC /* KifTrainingPipleLinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7577BCFF2090D2C100DB08DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577BD0F2090D2C100DB08DC /* LaunchScreen.storyboard in Resources */,
+				7577BD0C2090D2C100DB08DC /* Assets.xcassets in Resources */,
+				7577BD0A2090D2C100DB08DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577BD132090D2C200DB08DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B521CFF9F354AA73CCC9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KifTrainingPipleLinesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908DE89C1CCAC83D02CC3868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF70E357387A70E3E97948B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KifTrainingPipleLines-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7577BCFD2090D2C100DB08DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577BD072090D2C100DB08DC /* HomeViewController.swift in Sources */,
+				7577BD052090D2C100DB08DC /* AppDelegate.swift in Sources */,
+				7577BD252090D31E00DB08DC /* ListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577BD112090D2C200DB08DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577BD272090D5F000DB08DC /* HomeViewControllerSpec.swift in Sources */,
+				7577BD1A2090D2C200DB08DC /* KifTrainingPipleLinesTests.swift in Sources */,
+				7577BD292090D8E500DB08DC /* Quick+KIF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7577BD172090D2C200DB08DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7577BD002090D2C100DB08DC /* KifTrainingPipleLines */;
+			targetProxy = 7577BD162090D2C200DB08DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7577BD082090D2C100DB08DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7577BD092090D2C100DB08DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7577BD0D2090D2C100DB08DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7577BD0E2090D2C100DB08DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7577BD1C2090D2C200DB08DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7577BD1D2090D2C200DB08DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7577BD1F2090D2C200DB08DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3DC1F15AED0C4DC02836B9 /* Pods-KifTrainingPipleLines.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7577BD202090D2C200DB08DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3785683FFC22C2B42C95BC1 /* Pods-KifTrainingPipleLines.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7577BD222090D2C200DB08DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A418F74B74D0B0514E087A91 /* Pods-KifTrainingPipleLinesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"KIF\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"Quick\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLinesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KifTrainingPipleLines.app/KifTrainingPipleLines";
+			};
+			name = Debug;
+		};
+		7577BD232090D2C200DB08DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DABD5E3FA10A7C4176D3EB4 /* Pods-KifTrainingPipleLinesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQVLGGBH98;
+				INFOPLIST_FILE = KifTrainingPipleLinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"KIF\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"Quick\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.KifTrainingPipleLinesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KifTrainingPipleLines.app/KifTrainingPipleLines";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7577BCFC2090D2C100DB08DC /* Build configuration list for PBXProject "KifTrainingPipleLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577BD1C2090D2C200DB08DC /* Debug */,
+				7577BD1D2090D2C200DB08DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7577BD1E2090D2C200DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577BD1F2090D2C200DB08DC /* Debug */,
+				7577BD202090D2C200DB08DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7577BD212090D2C200DB08DC /* Build configuration list for PBXNativeTarget "KifTrainingPipleLinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577BD222090D2C200DB08DC /* Debug */,
+				7577BD232090D2C200DB08DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7577BCF92090D2C100DB08DC /* Project object */;
+}

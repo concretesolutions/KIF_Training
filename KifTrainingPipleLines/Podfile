@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.3'
+
+target 'KifTrainingPipleLines' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KifTrainingPipleLines
+
+  target 'KifTrainingPipleLinesTests' do
+    inherit! :search_paths
+    pod "KIF", "~> 3.7.1"
+    pod "Quick", "~> 1.2.0"
+    pod "Nimble", "~> 7.0.3"
+  end
+
+end
