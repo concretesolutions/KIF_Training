@@ -17,6 +17,7 @@
 		7577BD252090D31E00DB08DC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD242090D31E00DB08DC /* ListViewController.swift */; };
 		7577BD272090D5F000DB08DC /* HomeViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */; };
 		7577BD292090D8E500DB08DC /* Quick+KIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD282090D8E500DB08DC /* Quick+KIF.swift */; };
+		7577BD2B2090DB9400DB08DC /* KIFUITestActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */; };
 		E2024BC7729A362F1F51D548 /* Pods_KifTrainingPipleLinesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		7577BD242090D31E00DB08DC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpec.swift; sourceTree = "<group>"; };
 		7577BD282090D8E500DB08DC /* Quick+KIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick+KIF.swift"; sourceTree = "<group>"; };
+		7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIFUITestActor.swift; sourceTree = "<group>"; };
 		7A3DC1F15AED0C4DC02836B9 /* Pods-KifTrainingPipleLines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLines/Pods-KifTrainingPipleLines.debug.xcconfig"; sourceTree = "<group>"; };
 		A418F74B74D0B0514E087A91 /* Pods-KifTrainingPipleLinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KifTrainingPipleLinesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KifTrainingPipleLinesTests/Pods-KifTrainingPipleLinesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D6ACA87A5421BC3673E0B1 /* Pods_KifTrainingPipleLinesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KifTrainingPipleLinesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				7577BD1B2090D2C200DB08DC /* Info.plist */,
 				7577BD262090D5F000DB08DC /* HomeViewControllerSpec.swift */,
 				7577BD282090D8E500DB08DC /* Quick+KIF.swift */,
+				7577BD2A2090DB9400DB08DC /* KIFUITestActor.swift */,
 			);
 			path = KifTrainingPipleLinesTests;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				7577BD272090D5F000DB08DC /* HomeViewControllerSpec.swift in Sources */,
 				7577BD1A2090D2C200DB08DC /* KifTrainingPipleLinesTests.swift in Sources */,
+				7577BD2B2090DB9400DB08DC /* KIFUITestActor.swift in Sources */,
 				7577BD292090D8E500DB08DC /* Quick+KIF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

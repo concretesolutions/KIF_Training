@@ -27,7 +27,8 @@ final class HomeViewControllerSpec: QuickSpec {
             }
             
             it("should show root view controller") {
-                self.tester().waitForTappableViewWith(accessibilityIdentifier: "screen_1_button_next_creen", mustBeTappable: true)
+                let view = self.tester.waitForTappableViewWith(accessibilityIdentifier: "screen_1_button_next_creen", mustBeTappable: true)
+                expect(view).toNot(beNil())
             }
         }
     }
